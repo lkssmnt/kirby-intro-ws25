@@ -1,0 +1,6 @@
+fields:
+  author:
+    type: text
+  
+  text:
+    type: writer

@@ -1,0 +1,12 @@
+fields:
+  author:
+    type: text
+
+  location:
+    type: text
+
+  slideshow:
+    type: files
+
+  text:
+    type: writer

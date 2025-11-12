@@ -1,5 +1,12 @@
-<?php snippet("head") ?>
+<?php /*
 
-<h1>All set up and ready to go!</h1>
+  The default template is used when no other template is specified
+  for a page.
 
-<?php snippet("foot") ?>
+*/ ?>
+
+<?php snippet("header") ?>
+
+<h1><?= $page->title() ?></h1>
+
+<?php snippet("footer") ?>

@@ -20,7 +20,15 @@
 <?php snippet("header") ?>
 
 <h1>Project: <?= $page->title() ?></h1>
-<h2>Author: <?= $page->author() ?></h2>
+
+<p>Author(s):</p>
+<ul>
+  <?php foreach ($page->artist()->toPages() as $artist): ?>
+    <li>
+      <a href="<?= $artist->url() ?>"><?= $artist->title() ?></a>
+    </li>
+  <?php endforeach ?>
+</ul>
 
 <div class="images">
   <?php foreach ($page->slideshow()->toFiles() as $image): ?>

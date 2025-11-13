@@ -1,6 +1,6 @@
 fields:
-  author:
-    type: text
+  artist:
+    type: pages
 
   location:
     type: text

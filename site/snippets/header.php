@@ -9,3 +9,42 @@
 </head>
 
 <body>
+
+
+<nav>
+  <ul>
+
+    <?php foreach($site->nav()->toPages() as $subpage): ?>
+      <li>
+        <a href="<?= $subpage->url() ?>">
+          <?= $subpage->title() ?>
+        </a>
+      </li>
+    <?php endforeach ?>
+
+    <?php /*
+
+    <li>
+      <a href="<?= page("home")->url() ?>">
+        <?= page("home")->title() ?>
+      </a>
+    </li>
+    <li>
+      <a href="<?= page("texts")->url() ?>">
+        <?= page("texts")->title() ?>
+      </a>
+    </li>
+    <li>
+      <a href="<?= page("projects")->url() ?>">
+        <?= page("projects")->title() ?>
+      </a>
+    </li>
+    <li>
+      <a href="<?= page("artists")->url() ?>">
+        <?= page("artists")->title() ?>
+      </a>
+    </li>
+
+    */ ?>
+  </ul>
+</nav>

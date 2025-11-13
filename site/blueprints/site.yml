@@ -3,3 +3,12 @@ title: Site
 sections:
   pages:
     type: pages
+
+  fields:
+    type: fields
+    fields:
+      introtext:
+        type: writer
+
+      nav:
+        type: pages

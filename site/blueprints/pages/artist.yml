@@ -1,0 +1,12 @@
+fields:
+  bio:
+    type: writer
+
+  email:
+    type: text
+
+  website:
+    type: url
+
+  age:
+    type: number

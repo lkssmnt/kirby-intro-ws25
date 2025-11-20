@@ -2,7 +2,19 @@ Title: Virtual Body
 
 ----
 
-Author: Marie Dommenget
+Artist: 
+
+----
+
+Year: 
+
+----
+
+Location: 
+
+----
+
+Previewimage: - file://kMq2B28SE0IqY9Jm
 
 ----
 
@@ -12,10 +24,17 @@ Slideshow:
 - file://3x8agqnbqzxzvXxj
 - file://ZAZt0RWQqDHiqWdA
 - file://rMuDMkRWtHwpJB45
+- file://kMq2B28SE0IqY9Jm
+- file://YhnJyWf2zj6HuerF
+- file://fZAPYZlxS879JjCu
 
 ----
 
 Text: <p>The <u>bachelor thesis</u> is dedicated to the question of how we exist in cyberspace and what this can look like. </p><p>A video and an accompanying catalog present an interpretation of a 'virtual body' and draw attention to the lack of awareness of our movement in the virtual world and the 'digital traces' we leave behind.</p>
+
+----
+
+Author: Marie Dommenget
 
 ----
 

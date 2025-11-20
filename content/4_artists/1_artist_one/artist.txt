@@ -2,6 +2,10 @@ Title: Artist One
 
 ----
 
+Profilepicture: - file://gfUodHpkm9JGG6ks
+
+----
+
 Bio: <p>This artist was born only yesterday but they are already famous.</p>
 
 ----

@@ -21,14 +21,21 @@
 
 <h1>Project: <?= $page->title() ?></h1>
 
-<p>Author(s):</p>
-<ul>
-  <?php foreach ($page->artist()->toPages() as $artist): ?>
-    <li>
-      <a href="<?= $artist->url() ?>"><?= $artist->title() ?></a>
-    </li>
-  <?php endforeach ?>
-</ul>
+
+<?php if($page->year()->isNotEmpty()): ?>
+  <p>Year: <?= $page->year() ?></p>
+<?php endif ?>
+
+<?php if($page->artist()->isNotEmpty()): ?>
+  <p>Author(s):</p>
+  <ul>
+    <?php foreach ($page->artist()->toPages() as $artist): ?>
+      <li>
+        <a href="<?= $artist->url() ?>"><?= $artist->title() ?></a>
+      </li>
+    <?php endforeach ?>
+  </ul>
+<?php endif ?>
 
 <div class="images">
   <?php foreach ($page->slideshow()->toFiles() as $image): ?>

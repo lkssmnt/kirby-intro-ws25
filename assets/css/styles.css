@@ -1,7 +1,14 @@
-* {
-  color: blue;
-}
-
 img {
   max-width: 500px;
+}
+
+.artist-header {
+  background-color: greenyellow;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rebeccapurple;
+  color: white !important; 
 }

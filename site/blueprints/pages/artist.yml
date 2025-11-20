@@ -1,4 +1,8 @@
 fields:
+  profilepicture:
+    type: files
+    max: 1
+
   bio:
     type: writer
 

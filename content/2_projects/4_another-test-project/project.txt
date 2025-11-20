@@ -1,0 +1,25 @@
+Title: Another Test Project
+
+----
+
+Artist: - page://95oUppFGWOGEl3mX
+
+----
+
+Year: 1902
+
+----
+
+Location: Hamburg
+
+----
+
+Slideshow: 
+
+----
+
+Text: <p>Great project, really loving it.</p>
+
+----
+
+Uuid: F24whhz0Zg6oyVPm

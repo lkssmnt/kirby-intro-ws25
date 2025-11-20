@@ -2,7 +2,23 @@ Title: Artist Two
 
 ----
 
-Age: 
+Profilepicture: 
+
+----
+
+Bio: <p>Another artist, very boring.</p>
+
+----
+
+Email: artist@art.com
+
+----
+
+Website: 
+
+----
+
+Age: 21
 
 ----
 

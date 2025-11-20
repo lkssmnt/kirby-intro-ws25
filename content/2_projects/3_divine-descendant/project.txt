@@ -2,7 +2,15 @@ Title: Divine Descendant
 
 ----
 
-Author: Lukas Besenfelder
+Artist: 
+
+----
+
+Year: 2024
+
+----
+
+Location: 
 
 ----
 
@@ -20,6 +28,9 @@ Slideshow:
 
 Text: <p><em>Divine Descendant</em>&nbsp;unfolds as a reinterpretation of Dante‘s Divine Comedy, inverting the paradigmatic descent into hell and transforming it into an ascending journey into digital immortality. Viewers are led ascending through several <strong>symbolic</strong> levels, each illustrating a phase in the process of digital transcendence. The journey begins in the deep space of the earth, which represents the merciless exploitation of our natural resources, and spirals upward, driven by human labor, to the light-flooded clouds of supposed digital immortality.</p><p>Some other paragraph.</p>
 
+----
+
+Author: Lukas Besenfelder
 
 ----
 

@@ -2,8 +2,15 @@ fields:
   artist:
     type: pages
 
+  year:
+    type: number
+
   location:
     type: text
+
+  previewimage:
+    type: files
+    max: 1
 
   slideshow:
     type: files

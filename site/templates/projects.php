@@ -24,10 +24,20 @@
 <h1><?= $page->title() ?></h1>
 
 <ul>
-  <?php foreach ($page->children() as $project): ?>
+  <?php foreach ($page->children()->sortBy("year", "desc") as $project): ?>
     <li>
       <a href="<?= $project->url() ?>">
+
+        <?php if($project->previewimage()->isNotEmpty()): ?>
+          <img src="<?= $project->previewimage()->toFiles()->first()->url() ?>">
+        <?php elseif($project->previewimage()->isEmpty() && $project->slideshow()->isNotEmpty()): ?>
+          <img src="<?= $project->slideshow()->toFiles()->first()->url() ?>">
+        <?php endif ?>
+
         <?= $project->title() ?>
+        <?php if($project->year()->isNotEmpty()): ?>
+          (<?= $project->year() ?>)
+        <?php endif ?>
       </a>
     </li>
   <?php endforeach ?>
